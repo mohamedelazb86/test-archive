@@ -174,3 +174,5 @@ JAZZMIN_SETTINGS = {
     "search_model": ["auth.User", "auth.Group"],}
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+AUTHENTICATION_BACKENDS=['accounts.backend.Login_Email_UserName']
